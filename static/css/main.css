@@ -44,6 +44,7 @@ input[type="file"] {
     width: 50px;
     height: 50px;
     animation: spin 1s linear infinite;
+    display:none;
 }
 
 .loader-container{
@@ -94,6 +95,7 @@ h2 {
 }
 
 .image-section {
+    display:none;
     margin-top: 20px;
     text-align: center;
     display: flex;
@@ -141,7 +143,7 @@ h2 {
 }
 
 #content{
-    
+    margin-top:4.9em;
     height: auto;
     padding-bottom:10vh;
 }
