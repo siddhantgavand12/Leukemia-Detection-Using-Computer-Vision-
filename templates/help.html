@@ -1,12 +1,83 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2>Help Information</h2>
-<p>This page provides assistance on using the Leukemia Detector:</p>
+<div class="about-section">
+    <h2>About the Platform</h2>
+<p>
+    This platform is designed to assist in the preliminary screening for B-cell Acute Lymphoblastic Leukemia (B-ALL) by analyzing blood smear images. Using advanced deep learning algorithms, the platform categorizes blood smear images into four classes:
+</p>
 <ul>
-    <li>Upload an image in .png, .jpg, or .jpeg format.</li>
-    <li>Select the model you want to use for prediction.</li>
-    <li>Click "Predict!" to receive the classification result.</li>
+    <li>Benign (non-leukemic)</li>
+    <li>Early Pre-B</li>
+    <li>Pre-B</li>
+    <li>Pro-B</li>
 </ul>
+<p>
+    These categories help in the early detection and differentiation of leukemia types, facilitating timely medical intervention.
+</p>
+
+<h2>How to Use the Platform</h2>
+<ul>
+    <li><strong>Upload Image:</strong> Upload a clear image of a blood smear slide. Ensure that the image is in a compatible format (JPEG, PNG) and meets the platform's quality guidelines.</li>
+    <li><strong>Analyze:</strong> Click "Analyze" to begin processing. The platform will analyze the image and provide results within a few seconds.</li>
+    <li><strong>Interpret Results:</strong> Once processing is complete, results will display the category assigned to the image (e.g., Benign, Early Pre-B, Pre-B, or Pro-B).</li>
+    <li><strong>Further Guidance:</strong> If the results indicate a potential malignancy, please consult a medical professional for a detailed diagnosis.</li>
+</ul>
+
+<h2>Understanding the Results</h2>
+<ul>
+    <li><strong>Benign:</strong> Indicates that no leukemia cells are detected in the uploaded sample.</li>
+    <li><strong>Early Pre-B, Pre-B, Pro-B:</strong> These labels represent various stages of B-cell development associated with B-ALL. If any of these categories are detected, it is recommended to seek further medical advice.</li>
+</ul>
+
+<h2>FAQs</h2>
+<ul>
+    <li><strong>What does this tool provide?</strong> This tool offers preliminary insights by classifying blood smear images into specific categories relevant to leukemia. It does not replace professional diagnosis.</li>
+    <li><strong>Is my data secure?</strong> Yes, any uploaded images are processed securely, and privacy protocols are in place to protect user information.</li>
+    <li><strong>What if my image quality is low?</strong> Clear, high-resolution images are essential for accurate analysis. Please re-upload if image quality does not meet platform guidelines.</li>
+</ul>
+
+<h2>Contact Support</h2>
+<p>
+    If you encounter issues or need additional assistance, please reach out through our Contact Us page. Our support team is here to help ensure that you can use the platform effectively and get reliable preliminary results.
+</p>
+<p>Email: <a href="mailto:support@leukemiadetector.com">support@leukemiadetector.com</a></p>
+
+
+</div>
+<style>
+      .about-section {
+        /* margin-top: -20px; */
+        padding: 20px; /* Add padding around the section */
+        background-color: #f9f9f9; /* Light background for contrast */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    h2 {
+        color: #2c3e50; /* Dark color for headings */
+        margin-top: 20px; /* Spacing above headings */
+        margin-bottom: 10px; /* Spacing below headings */
+    }
+
+    p {
+        margin-bottom: 15px; /* Adds spacing between paragraphs */
+        line-height: 1.6; /* Improves readability */
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px; /* Indentation for list */
+        margin-bottom: 20px; /* Adds spacing below lists */
+    }
+
+    li {
+        margin-bottom: 10px; /* Adds spacing between list items */
+    }
+
+    li strong {
+        color: #2980b9; /* Blue color for strong emphasis */
+    }
+</style>
 
 {% endblock %}

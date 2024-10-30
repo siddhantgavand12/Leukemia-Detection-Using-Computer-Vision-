@@ -1,6 +1,114 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Precautions</h2>
-<p>Here are some precautions you can take to prevent leukemia...</p>
+<div class="about-section">
+    <h2>Basic Precaution Information</h2>
+
+<ul>
+    <li>
+        <strong>Regular Health Checkups:</strong>
+        <p>
+            Early screening can be crucial, especially for individuals with a family history of blood-related cancers or who are in high-risk categories. Regular blood tests and medical checkups help monitor health changes and can catch warning signs early.
+        </p>
+    </li>
+    <li>
+        <strong>Healthy Lifestyle Choices:</strong>
+        <ul class="subpoints">
+            <li>
+                <strong>Balanced Diet:</strong>
+                <p>
+                    Consuming a diet rich in fruits, vegetables, whole grains, and lean proteins helps strengthen the immune system, making the body more resilient to infections and diseases.
+                </p>
+            </li>
+            <li>
+                <strong>Avoid Smoking and Alcohol:</strong>
+                <p>
+                    Tobacco and excessive alcohol consumption are linked to various cancers, including leukemia. Avoiding these reduces risk.
+                </p>
+            </li>
+            <li>
+                <strong>Physical Activity:</strong>
+                <p>
+                    Regular exercise boosts immunity, promotes circulation, and supports overall health. A daily routine of physical activity can be beneficial for preventing numerous health issues.
+                </p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Awareness of Symptoms:</strong>
+        <p>
+            Recognizing symptoms of leukemia early—such as fatigue, frequent infections, easy bruising, and unexplained weight loss—can prompt early diagnosis. If any symptoms persist, consult a healthcare provider immediately.
+        </p>
+    </li>
+    <li>
+        <strong>Minimizing Exposure to Harmful Chemicals:</strong>
+        <p>
+            Exposure to certain chemicals, such as benzene (found in gasoline and pesticides), has been linked to a higher risk of leukemia. Use caution around such chemicals, follow safety guidelines, and avoid exposure where possible.
+        </p>
+    </li>
+    <li>
+        <strong>Genetic Counseling and Testing:</strong>
+        <p>
+            For those with a family history of leukemia or other cancers, genetic counseling and testing may help assess risk. Knowing one's genetic predisposition can guide early detection and preventive measures.
+        </p>
+    </li>
+    <li>
+        <strong>Routine Screening Tools and Innovations:</strong>
+        <p>
+            Leveraging modern diagnostic tools, such as automated blood smear analysis with deep learning models, can streamline leukemia screening. Our project aims to assist healthcare providers by offering an efficient tool for identifying leukemia subtypes and supporting early detection efforts.
+        </p>
+    </li>
+    <li>
+        <strong>Stress Management and Mental Health:</strong>
+        <p>
+            High-stress levels can weaken the immune system over time. Practicing relaxation techniques, maintaining social connections, and seeking mental health support when needed can strengthen overall well-being.
+        </p>
+    </li>
+</ul>
+</div>
+
+
+<style>
+      .about-section {
+        padding: 20px; /* Add padding around the section */
+        background-color: #f9f9f9; /* Light background for contrast */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    ul {
+        list-style-type: disc; /* Main list bullet style */
+        padding-left: 20px; /* Indentation for main list */
+    }
+
+    li {
+        margin-bottom: 20px; /* Spacing between list items */
+    }
+
+    strong {
+        display: block; /* Makes the strong tag behave like a block element for better spacing */
+        margin-top: 10px; /* Adds spacing before each strong item */
+        color: #2c3e50; /* Color for stronger emphasis */
+    }
+
+    p {
+        margin: 5px 0; /* Adds spacing for paragraphs */
+    }
+
+    .subpoints {
+        list-style-type: circle; /* Bullet style for subpoints */
+        padding-left: 20px; /* Additional indentation for subpoints */
+    }
+
+    .subpoints li {
+        margin-bottom: 15px; /* Spacing between subpoints */
+    }
+
+    .subpoints strong {
+        color: #2980b9; /* Different color for subpoint headings */
+    }
+</style>
+
+
+
 {% endblock %}

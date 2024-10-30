@@ -61,7 +61,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
     margin: 0;
-    overflow-y: hidden; /* Disable vertical scrolling */
+    height: 100vh;
+    position: relative;
 }
 
 h2 {
@@ -140,6 +141,29 @@ h2 {
 }
 
 #content{
-    /* background-color: red; */
-    height: 81vh;
+    
+    height: auto;
+    padding-bottom:10vh;
 }
+
+.about-section{
+    height: auto;
+}
+
+.navbar{
+    background-color: red;
+    margin-bottom: 100px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    width: 100vw;
+    position: fixed;
+}
+

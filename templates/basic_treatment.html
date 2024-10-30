@@ -1,6 +1,123 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Basic Treatment</h2>
-<p>The basic treatment options for leukemia include...</p>
+<div class="about-section">
+    <h2>Basic Treatment Information</h2>
+
+<ul>
+    <li>
+        <strong>Chemotherapy:</strong>
+        <p>
+            <strong>Overview:</strong> Chemotherapy is the primary treatment for many types of leukemia. It uses strong drugs to target and kill cancer cells in the blood and bone marrow.
+        </p>
+        <p>
+            <strong>Process:</strong> Treatment often occurs in cycles, with a combination of drugs administered over several months. This helps eliminate leukemia cells and manage disease progression.
+        </p>
+        <p>
+            <strong>Side Effects:</strong> Common side effects include fatigue, nausea, hair loss, and increased susceptibility to infections. Doctors may provide medications to help manage these effects.
+        </p>
+    </li>
+    <li>
+        <strong>Targeted Therapy:</strong>
+        <p>
+            <strong>Overview:</strong> Targeted therapy focuses on specific abnormalities in cancer cells, like proteins or genetic mutations, that promote the growth of leukemia cells.
+        </p>
+        <p>
+            <strong>Common Drugs:</strong> Medications such as tyrosine kinase inhibitors (TKIs) can be effective for some leukemia subtypes, particularly chronic myeloid leukemia (CML).
+        </p>
+        <p>
+            <strong>Advantages:</strong> This approach typically has fewer side effects than chemotherapy, as it targets cancer cells while sparing healthy cells.
+        </p>
+    </li>
+    <li>
+        <strong>Radiation Therapy:</strong>
+        <p>
+            <strong>Purpose:</strong> Radiation therapy uses high-energy beams to kill leukemia cells or reduce the size of tumors that may interfere with organs or blood flow.
+        </p>
+        <p>
+            <strong>Application:</strong> It is often used to treat localized areas, such as in cases where leukemia cells are concentrated in one part of the body.
+        </p>
+        <p>
+            <strong>Combination with Other Treatments:</strong> Radiation may be used in conjunction with chemotherapy or before a stem cell transplant to prepare the body.
+        </p>
+    </li>
+    <li>
+        <strong>Immunotherapy:</strong>
+        <p>
+            <strong>Overview:</strong> Immunotherapy leverages the body's immune system to identify and attack cancer cells more effectively.
+        </p>
+        <p>
+            <strong>CAR-T Cell Therapy:</strong> A newer form of immunotherapy, CAR-T involves modifying the patient's T-cells to recognize and destroy leukemia cells.
+        </p>
+        <p>
+            <strong>Benefits:</strong> This therapy offers a highly personalized treatment and can be effective for certain types of leukemia resistant to traditional treatments.
+        </p>
+    </li>
+    <li>
+        <strong>Stem Cell Transplant:</strong>
+        <p>
+            <strong>Purpose:</strong> Stem cell transplants, also known as bone marrow transplants, aim to replace diseased bone marrow with healthy stem cells to produce normal blood cells.
+        </p>
+        <p>
+            <strong>Process:</strong> After high doses of chemotherapy or radiation to kill cancerous cells, healthy stem cells (from a donor or the patient) are infused into the bloodstream.
+        </p>
+        <p>
+            <strong>Long-term Recovery:</strong> This treatment has the potential to cure leukemia, but it requires extensive recovery and is usually recommended for patients in remission or when other treatments are ineffective.
+        </p>
+    </li>
+    <li>
+        <strong>Supportive Care:</strong>
+        <p>
+            <strong>Symptom Management:</strong> Alongside treatment, supportive care addresses symptoms and side effects, such as pain relief, blood transfusions, and antibiotics for infections.
+        </p>
+        <p>
+            <strong>Nutritional and Psychological Support:</strong> Maintaining a balanced diet, managing stress, and addressing emotional needs are crucial to improve quality of life during treatment.
+        </p>
+    </li>
+    <li>
+        <strong>Experimental and Emerging Therapies:</strong>
+        <p>
+            <strong>Clinical Trials:</strong> Some patients may consider participating in clinical trials that test new treatments, providing access to innovative therapies that may improve outcomes.
+        </p>
+        <p>
+            <strong>Genetic and Molecular Testing:</strong> Personalized treatment approaches are evolving as scientists learn more about genetic mutations and molecular profiles in leukemia, potentially leading to tailored treatments for specific patients.
+        </p>
+    </li>
+</ul>
+</div>
+
+
+<style>
+      .about-section {
+        padding: 20px; /* Add padding around the section */
+        background-color: #f9f9f9; /* Light background for contrast */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    
+    li {
+        margin-bottom: 20px;
+    }
+
+    strong {
+        display: block; /* Makes the strong tag behave like a block element for better spacing */
+        margin-top: 10px; /* Adds spacing before each strong item */
+    }
+
+    p {
+        margin: 5px 0; /* Adds spacing for paragraphs */
+    }
+
+    p strong {
+        font-weight: bold; /* Ensure sub-point titles are bold */
+        color: #2c3e50; /* Change color for better emphasis */
+    }
+</style>
+
+
 {% endblock %}
