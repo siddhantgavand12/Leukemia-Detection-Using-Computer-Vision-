@@ -46,6 +46,12 @@ input[type="file"] {
     animation: spin 1s linear infinite;
 }
 
+.loader-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -55,6 +61,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
     margin: 0;
+    overflow-y: hidden; /* Disable vertical scrolling */
 }
 
 h2 {
@@ -130,4 +137,9 @@ h2 {
 #result span {
     font-weight: bold;
     color: #27ae60; /* Green for results */
+}
+
+#content{
+    /* background-color: red; */
+    height: 81vh;
 }
