@@ -141,3 +141,7 @@ def precautions():
 @app.route('/basic_treatment', methods=['GET'])
 def basic_treatment():
     return render_template('basic_treatment.html')
+
+# Run the Flask app
+if __name__ == '__main__':
+    app.run(debug=True)
