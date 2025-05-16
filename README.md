@@ -103,6 +103,6 @@ Contributions are welcome!
 Feel free to fork the repo, raise issues, or submit pull requests.
 
 👨‍💻 Authors
-Siddhant Gavand 
-Atharva Gangras
-Deepak Choudhry
+- Siddhant Gavand 
+- Atharva Gangras
+- Deepak Choudhry
