@@ -19,13 +19,13 @@ This project is a web-based platform that leverages **deep learning models** to 
 ---
 
 ## 📂 Project Structure
-├── app.py # Flask backend entry point
-├── templates/ # HTML templates for Flask
-├── static/ # Static files (CSS, JS, Images)
-├── uploads/ # Uploaded images directory
-├── models/ # Saved model files (.h5, .bin, .json)
-├── requirements.txt # Python dependencies
-├── README.md # You're reading this :)
+- ├── app.py # Flask backend entry point
+- ├── templates/ # HTML templates for Flask
+- ├── static/ # Static files (CSS, JS, Images)
+- ├── uploads/ # Uploaded images directory
+- ├── models/ # Saved model files (.h5, .bin, .json)
+- ├── requirements.txt # Python dependencies
+- ├── README.md # You're reading this :)
 
 
 ---
